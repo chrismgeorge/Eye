@@ -4,7 +4,7 @@
 `layer = ‘mixed4d_3x3_bottleneck_pre_relu’`
 `T(layer)[:,:,:,142] + T(layer)[:,:,:,8]`
 
-DeepDream      |  Original
+DeepDream                  |  Original
 :-------------------------:|:-------------------------:
 ![](./final_1.jpg "(1.1)")  |  ![](./initial_1.jpg "(1.2)")
 ![](./final_2.png "(2.1)")  |  ![](./initial_2.jpg "(2.2)")
