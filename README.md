@@ -1,15 +1,14 @@
 # Eye
 
 ## Final Results
+### Original images are the `inital_#` images.
 `layer = ‘mixed4d_3x3_bottleneck_pre_relu’`
 `T(layer)[:,:,:,142] + T(layer)[:,:,:,8]`
 
-Original                  |  Deepdream
-:-------------------------:|:-------------------------:
-![very good|3556x2000,20%](./initial_1.jpg "(1.2)") |  ![](./final_1.jpg "(1.2)")
-![20%](./initial_2.jpg "(2.1)")|  ![](./final_2.png "(2.2)")
-![20%](./initial_3.jpg "(3.1)")|  ![](./final_3.png "(3.2)")
-![very good|512x397,20%](./initial_4.jpg "(4.1)") |  ![](./final_4.png "(4.2)")
+![](./final_1.jpg "(1.2)")
+![](./final_2.png "(2.2)")
+![](./final_3.png "(3.2)")
+![](./final_4.png "(4.2)")
 
 ## Code
 #### deep_dream_edit.py
