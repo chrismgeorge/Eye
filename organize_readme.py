@@ -15,7 +15,7 @@ for file in directory:
         # text += '<p align="center">'+str(i)+".jpeg"+'</p>'
         # text += "\n\n***\n\n"
         text += '<p align="center">  <img src="'+file+'?"> </p>'
-        text += '<p align="center">'+file+".jpeg"+'</p>'
+        text += '<p align="center">'+file+'</p>'
         text += "\n\n***\n\n"
 
 print(text)
