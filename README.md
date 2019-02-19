@@ -18,6 +18,9 @@ for i in range(1, 84):
     deep_dream_image.save(new_file_path+str(i)+'.jpeg')
 ```
 We included two of those tests here. One was for `mized4d_3x3_bottleneck_pre_relu` and another was for `mixed4b_3x3_bottleneck_pre_relu`.
-### Image
+
+***
+
+## Image
 We used the following image and you will see the images laid out in the readmes of the respective layers.
 ![Alt text](./bath.jpg?raw=true "Bath Lady")
