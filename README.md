@@ -4,12 +4,12 @@
 `layer = ‘mixed4d_3x3_bottleneck_pre_relu’`
 `T(layer)[:,:,:,142] + T(layer)[:,:,:,8]`
 
-DeepDream                  |  Original
+Original                  |  Deepdream
 :-------------------------:|:-------------------------:
-![](./initial_1.jpg "(1.1)") |  ![](./final_1.jpg "(1.2)")
-![](./initial_2.jpg "(2.1)") |  ![](./final_2.png "(2.2)")
-![](./initial_3.jpg "(3.1)") |  ![](./final_3.png "(3.2)")
-![](./initial_4.jpg "(4.1)") |  ![](./final_4.png "(4.2)")
+![](./initial_1.jpg "(1.1)"){:height="50%" width="50%"} |  ![](./final_1.jpg "(1.2)")
+![](./initial_2.jpg "(2.1)"){:height="50%" width="50%"} |  ![](./final_2.png "(2.2)")
+![](./initial_3.jpg "(3.1)"){:height="50%" width="50%"} |  ![](./final_3.png "(3.2)")
+![](./initial_4.jpg "(4.1)"){:height="50%" width="50%"} |  ![](./final_4.png "(4.2)")
 
 ## Code
 #### deep_dream_edit.py
