@@ -1,5 +1,16 @@
 # Eye
 
+## Final Results
+`layer = ‘mixed4d_3x3_bottleneck_pre_relu’`
+`T(layer)[:,:,:,142] + T(layer)[:,:,:,8]`
+
+DeepDream      |  Original
+:-------------------------:|:-------------------------:
+![](./final_1.jpg "(1.1)")  |  ![](./initial_1.jpg "(1.2)")
+![](./final_2.png "(2.1)")  |  ![](./initial_2.jpg "(2.2)")
+![](./final_3.png "(3.1)")  |  ![](./initial_3.jpg "(3.2)")
+![](./final_4.png "(4.1)")  |  ![](./initial_4.jpg "(4.2)")
+
 ## Code
 #### deep_dream_edit.py
 The code we wrote was only for easily running a photo on a specific layer and every channel in that layer. We modified the `render_deapdream` function so that it returned the image to be saved into the correct directory.
