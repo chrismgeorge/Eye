@@ -27,7 +27,7 @@ def render_deepdream(t_obj, img0=img_noise,
         showarray(img/255.0)
 
     ### Now returning Images ###
-    return PIL.Image.fromarray(np.uint8(np.clip(img, 0, 1)*255))
+    return PIL.Image.fromarray(np.uint8(np.clip(img/255.0, 0, 1)*255))
 
 
 ### Edited for easy input ###
